@@ -3,8 +3,8 @@ l = []
 params = sys.argv 
 
 for i in range(1, len(params)):
-    if "ism" in params[i]:
-        pass
+    if params[i].endswith("ism"):
+            pass
     else:
         l.append(params[i] + "ism")
 
